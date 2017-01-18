@@ -1,0 +1,25 @@
+h1{
+   
+    padding-top:50px;
+    padding-right:330px;
+    padding-left:240px;
+    font-family: 'Frijole';
+    font-size:45px;
+}
+
+p{
+    padding-bottom:20px;
+    padding-right:340px;
+    padding-left:330px;
+}
+
+h4 {
+    padding-bottom:20px;
+    padding-right:20px;
+    padding-left:180px;
+    font-family: 'Frijole';
+}
+
+body{
+    background-color: purple;
+}
