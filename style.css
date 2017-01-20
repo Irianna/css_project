@@ -13,9 +13,9 @@ h1 {
 }
 
 p {
-    padding-bottom: 20px;
-    padding-right: 340px;
-    padding-left: 330px;
+    padding-bottom: 0px;
+    padding-right: 240px;
+    padding-left: 320px;
     font-family: 'Indie Flower';
 }
 
@@ -29,4 +29,10 @@ h4 {
 
 .hover :hover{
     font-size:30px ;
+}
+
+img {
+    padding-left:100px;
+    transform: rotate(20deg); 
+
 }
