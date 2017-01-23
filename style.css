@@ -27,12 +27,52 @@ h4 {
     text-shadow: 4px 2px grey;
 }
 
-.hover :hover{
-    font-size:30px ;
-}
 
 img {
-    padding-left:100px;
-    transform: rotate(20deg); 
+    padding-left:450px;
+    transform: rotate(0deg); 
+    width: 100px;
+    height: 120px;
+    background-color:none;
+    
+  
+}
 
+    
+#grow:hover
+{
+        
+        transform: scale(1.3);
+        
+}
+
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-180deg);
+}
+
+@keyframes swing
+{
+    15%
+    {transform: translateX(20px); }
+    30%
+    { transform: translateX(-20px); }
+    50%
+    { transform: translateX(4px); }
+    65%
+    { transform: translateX(-4px);}
+    80%
+    {transform: translateX(3px);}
+    100%
+    {transform: translateX(0);}
+}
+
+.swing:hover
+{
+        
+        animation: swing 2s ease;
+        animation-iteration-count: 3;
 }
